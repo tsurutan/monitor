@@ -1,0 +1,1517 @@
+
+
+Started GET "/events/1" for ::1 at 2016-04-06 18:24:19 +0900
+
+ActionController::RoutingError (No route matches [GET] "/events/1"):
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:28:in `block in call'
+  vendor/bundle/ruby/2.0.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  vendor/bundle/ruby/2.0.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.5.2/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.5.2/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5.2/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5.2/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5.2/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.5.2/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5.2/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/static.rb:116:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.5.2/lib/rails/engine.rb:518:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.5.2/lib/rails/application.rb:165:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.8ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (21.0ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (52.0ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (28.3ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (56.6ms)
+
+
+Started GET "/" for ::1 at 2016-04-06 18:24:25 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendered vendor/bundle/ruby/2.0.0/gems/railties-4.2.5.2/lib/rails/templates/rails/welcome/index.html.erb (0.9ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/monitor/init" for ::1 at 2016-04-06 18:28:15 +0900
+Processing by MonitorController#init as HTML
+  Rendered monitor/init.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1977ms (Views: 1976.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/monitor.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-06 18:28:17 +0900
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-06 18:28:17 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-06 18:28:17 +0900
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-06 18:28:17 +0900
+
+
+Started GET "/assets/monitor.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-06 18:28:17 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-06 18:28:17 +0900
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-06 18:28:17 +0900
+
+
+Started GET "/monitor/init" for ::1 at 2016-04-06 18:31:30 +0900
+Processing by MonitorController#init as HTML
+  Rendered monitor/init.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 118ms (Views: 116.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/monitor.self-a32732525008d5e54c46d24d581f2397cbe8b03056965ea8bc0508e205221496.css?body=1" for ::1 at 2016-04-06 18:31:31 +0900
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-06 18:31:31 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-06 18:31:31 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-06 18:31:31 +0900
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-06 18:31:31 +0900
+
+
+Started GET "/assets/monitor.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-06 18:31:31 +0900
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-06 18:31:31 +0900
+
+
+Started GET "/monitor/init" for ::1 at 2016-04-06 18:32:32 +0900
+Processing by MonitorController#init as HTML
+  Rendered monitor/init.html.erb within layouts/application (132.8ms)
+Completed 200 OK in 145ms (Views: 144.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-06 18:32:32 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-06 18:32:32 +0900
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-06 18:32:32 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-06 18:32:32 +0900
+
+
+Started GET "/assets/monitor.self-a32732525008d5e54c46d24d581f2397cbe8b03056965ea8bc0508e205221496.css?body=1" for ::1 at 2016-04-06 18:32:33 +0900
+
+
+Started GET "/assets/monitor.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-06 18:32:33 +0900
+
+
+Started GET "/assets/application.self-39e48d9b58cce8d9e1a2bc744af01ad33127da9a58ebce74b25f3bbd6054d0bf.js?body=1" for ::1 at 2016-04-06 18:32:33 +0900
+
+
+Started GET "/monitor/init" for ::1 at 2016-04-06 18:32:34 +0900
+Processing by MonitorController#init as HTML
+  Rendered monitor/init.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 15ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/monitor.self-a32732525008d5e54c46d24d581f2397cbe8b03056965ea8bc0508e205221496.css?body=1" for ::1 at 2016-04-06 18:32:34 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-06 18:32:34 +0900
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-06 18:32:34 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-06 18:32:34 +0900
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-06 18:32:34 +0900
+
+
+Started GET "/assets/monitor.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-06 18:32:34 +0900
+
+
+Started GET "/assets/application.self-39e48d9b58cce8d9e1a2bc744af01ad33127da9a58ebce74b25f3bbd6054d0bf.js?body=1" for ::1 at 2016-04-06 18:32:34 +0900
+
+
+Started GET "/monitor/init" for ::1 at 2016-04-06 18:32:35 +0900
+Processing by MonitorController#init as HTML
+  Rendered monitor/init.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 70ms (Views: 69.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/monitor.self-a32732525008d5e54c46d24d581f2397cbe8b03056965ea8bc0508e205221496.css?body=1" for ::1 at 2016-04-06 18:32:35 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-06 18:32:35 +0900
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-06 18:32:35 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-06 18:32:35 +0900
+
+
+Started GET "/assets/monitor.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-06 18:32:35 +0900
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-06 18:32:35 +0900
+
+
+Started GET "/assets/application.self-39e48d9b58cce8d9e1a2bc744af01ad33127da9a58ebce74b25f3bbd6054d0bf.js?body=1" for ::1 at 2016-04-06 18:32:35 +0900
+
+
+Started GET "/monitor/init" for ::1 at 2016-04-06 18:40:21 +0900
+Processing by MonitorController#init as HTML
+  Rendered monitor/init.html.erb within layouts/application (45.5ms)
+Completed 500 Internal Server Error in 78ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined local variable or method `canvas' for #<#<Class:0x007fd95b698138>:0x007fd95b6ab5f8>):
+    1: <h1>Monitor#init</h1>
+    2: <p>Find me in app/views/monitor/init.html.erb</p>
+    3: <body>
+    4: <%canvas#canvas{:height => "450", :width => "600"} %>
+    5: <span id="ball"></span>
+    6: </body>
+  app/views/monitor/init.html.erb:4:in `_app_views_monitor_init_html_erb___2417678792472119579_70285759286900'
+
+
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.6ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (31.6ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (31.2ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (101.1ms)
+
+
+Started GET "/monitor/init" for ::1 at 2016-04-06 18:42:21 +0900
+Processing by MonitorController#init as HTML
+  Rendered monitor/init.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1787ms (Views: 1786.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-06 18:42:23 +0900
+
+
+Started GET "/assets/monitor.self-55a0bf6376b7ad839a945c39639aad4772a6f4d86a8bcc9404c1c0e03cc86db1.js?body=1" for ::1 at 2016-04-06 18:42:23 +0900
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-06 18:42:23 +0900
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-06 18:42:23 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-06 18:42:23 +0900
+
+
+Started GET "/assets/monitor.self-a32732525008d5e54c46d24d581f2397cbe8b03056965ea8bc0508e205221496.css?body=1" for ::1 at 2016-04-06 18:42:23 +0900
+
+
+Started GET "/assets/application.self-39e48d9b58cce8d9e1a2bc744af01ad33127da9a58ebce74b25f3bbd6054d0bf.js?body=1" for ::1 at 2016-04-06 18:42:23 +0900
+
+
+Started GET "/monitor/init" for ::1 at 2016-04-06 18:42:33 +0900
+Processing by MonitorController#init as HTML
+  Rendered monitor/init.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 82ms (Views: 81.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/monitor.self-a32732525008d5e54c46d24d581f2397cbe8b03056965ea8bc0508e205221496.css?body=1" for ::1 at 2016-04-06 18:42:33 +0900
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-06 18:42:33 +0900
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-06 18:42:33 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-06 18:42:33 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-06 18:42:33 +0900
+
+
+Started GET "/assets/monitor.self-55a0bf6376b7ad839a945c39639aad4772a6f4d86a8bcc9404c1c0e03cc86db1.js?body=1" for ::1 at 2016-04-06 18:42:33 +0900
+
+
+Started GET "/assets/application.self-39e48d9b58cce8d9e1a2bc744af01ad33127da9a58ebce74b25f3bbd6054d0bf.js?body=1" for ::1 at 2016-04-06 18:42:33 +0900
+
+
+Started GET "/monitor/init" for ::1 at 2016-04-06 18:42:58 +0900
+Processing by MonitorController#init as HTML
+  Rendered monitor/init.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 20ms (Views: 18.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-06 18:42:59 +0900
+
+
+Started GET "/assets/monitor.self-a32732525008d5e54c46d24d581f2397cbe8b03056965ea8bc0508e205221496.css?body=1" for ::1 at 2016-04-06 18:42:59 +0900
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-06 18:42:59 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-06 18:42:59 +0900
+
+
+Started GET "/assets/monitor.self-55a0bf6376b7ad839a945c39639aad4772a6f4d86a8bcc9404c1c0e03cc86db1.js?body=1" for ::1 at 2016-04-06 18:42:59 +0900
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-06 18:42:59 +0900
+
+
+Started GET "/assets/application.self-39e48d9b58cce8d9e1a2bc744af01ad33127da9a58ebce74b25f3bbd6054d0bf.js?body=1" for ::1 at 2016-04-06 18:42:59 +0900
+
+
+Started GET "/monitor/init" for ::1 at 2016-04-06 18:43:00 +0900
+Processing by MonitorController#init as HTML
+  Rendered monitor/init.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/monitor.self-a32732525008d5e54c46d24d581f2397cbe8b03056965ea8bc0508e205221496.css?body=1" for ::1 at 2016-04-06 18:43:00 +0900
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-06 18:43:00 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-06 18:43:00 +0900
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-06 18:43:00 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-06 18:43:00 +0900
+
+
+Started GET "/assets/monitor.self-55a0bf6376b7ad839a945c39639aad4772a6f4d86a8bcc9404c1c0e03cc86db1.js?body=1" for ::1 at 2016-04-06 18:43:00 +0900
+
+
+Started GET "/assets/application.self-39e48d9b58cce8d9e1a2bc744af01ad33127da9a58ebce74b25f3bbd6054d0bf.js?body=1" for ::1 at 2016-04-06 18:43:00 +0900
+
+
+Started GET "/monitor/init" for ::1 at 2016-04-06 18:44:09 +0900
+Processing by MonitorController#init as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+ActionView::MissingTemplate (Missing template monitor/init, application/init with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/tsurutan/RubymineProjects/ForYouMonitor/app/views"
+):
+  vendor/bundle/ruby/2.0.0/gems/actionview-4.2.5.2/lib/action_view/path_set.rb:46:in `find'
+  vendor/bundle/ruby/2.0.0/gems/actionview-4.2.5.2/lib/action_view/lookup_context.rb:121:in `find'
+  vendor/bundle/ruby/2.0.0/gems/actionview-4.2.5.2/lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  vendor/bundle/ruby/2.0.0/gems/actionview-4.2.5.2/lib/action_view/renderer/template_renderer.rb:40:in `determine_template'
+  vendor/bundle/ruby/2.0.0/gems/actionview-4.2.5.2/lib/action_view/renderer/template_renderer.rb:8:in `render'
+  vendor/bundle/ruby/2.0.0/gems/actionview-4.2.5.2/lib/action_view/renderer/renderer.rb:46:in `render_template'
+  vendor/bundle/ruby/2.0.0/gems/actionview-4.2.5.2/lib/action_view/renderer/renderer.rb:27:in `render'
+  vendor/bundle/ruby/2.0.0/gems/actionview-4.2.5.2/lib/action_view/rendering.rb:100:in `_render_template'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  vendor/bundle/ruby/2.0.0/gems/actionview-4.2.5.2/lib/action_view/rendering.rb:83:in `render_to_body'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/abstract_controller/rendering.rb:25:in `render'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/action_controller/metal/rendering.rb:16:in `render'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5.2/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5.2/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  vendor/bundle/ruby/2.0.0/gems/activerecord-4.2.5.2/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/action_controller/metal/instrumentation.rb:43:in `render'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/abstract_controller/base.rb:198:in `process_action'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/action_controller/metal/rendering.rb:10:in `process_action'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5.2/lib/active_support/callbacks.rb:117:in `call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5.2/lib/active_support/callbacks.rb:117:in `call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5.2/lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5.2/lib/active_support/callbacks.rb:505:in `call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5.2/lib/active_support/callbacks.rb:505:in `call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5.2/lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5.2/lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5.2/lib/active_support/callbacks.rb:81:in `run_callbacks'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/abstract_controller/callbacks.rb:19:in `process_action'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/action_controller/metal/rescue.rb:29:in `process_action'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5.2/lib/active_support/notifications.rb:164:in `block in instrument'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5.2/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5.2/lib/active_support/notifications.rb:164:in `instrument'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  vendor/bundle/ruby/2.0.0/gems/activerecord-4.2.5.2/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/abstract_controller/base.rb:137:in `process'
+  vendor/bundle/ruby/2.0.0/gems/actionview-4.2.5.2/lib/action_view/rendering.rb:30:in `process'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/action_controller/metal.rb:196:in `dispatch'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/action_controller/metal.rb:237:in `block in action'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/action_dispatch/routing/route_set.rb:74:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/action_dispatch/journey/router.rb:30:in `each'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/action_dispatch/journey/router.rb:30:in `serve'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/action_dispatch/routing/route_set.rb:815:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.4/lib/rack/etag.rb:24:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.4/lib/rack/conditionalget.rb:25:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.4/lib/rack/head.rb:13:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/flash.rb:260:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:225:in `context'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:220:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  vendor/bundle/ruby/2.0.0/gems/activerecord-4.2.5.2/lib/active_record/query_cache.rb:36:in `call'
+  vendor/bundle/ruby/2.0.0/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  vendor/bundle/ruby/2.0.0/gems/activerecord-4.2.5.2/lib/active_record/migration.rb:377:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5.2/lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5.2/lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5.2/lib/active_support/callbacks.rb:81:in `run_callbacks'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:28:in `block in call'
+  vendor/bundle/ruby/2.0.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  vendor/bundle/ruby/2.0.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.5.2/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.5.2/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5.2/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5.2/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5.2/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.5.2/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5.2/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/static.rb:116:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.5.2/lib/rails/engine.rb:518:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.2.5.2/lib/rails/application.rb:165:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.8ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (28.8ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (22.1ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (44.7ms)
+
+
+Started GET "/monitor/init" for ::1 at 2016-04-06 18:44:38 +0900
+Processing by MonitorController#init as HTML
+  Rendered monitor/init.html.haml within layouts/application (2.8ms)
+Completed 200 OK in 468ms (Views: 448.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/monitor.self-a32732525008d5e54c46d24d581f2397cbe8b03056965ea8bc0508e205221496.css?body=1" for ::1 at 2016-04-06 18:44:38 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-06 18:44:38 +0900
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-06 18:44:38 +0900
+
+
+Started GET "/assets/monitor.self-55a0bf6376b7ad839a945c39639aad4772a6f4d86a8bcc9404c1c0e03cc86db1.js?body=1" for ::1 at 2016-04-06 18:44:38 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-06 18:44:38 +0900
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-06 18:44:38 +0900
+
+
+Started GET "/assets/application.self-39e48d9b58cce8d9e1a2bc744af01ad33127da9a58ebce74b25f3bbd6054d0bf.js?body=1" for ::1 at 2016-04-06 18:44:38 +0900
+
+
+Started GET "/monitor/init" for ::1 at 2016-04-06 18:44:56 +0900
+Processing by MonitorController#init as HTML
+  Rendered monitor/init.html.haml within layouts/application (1.1ms)
+Completed 200 OK in 56ms (Views: 55.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/monitor.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-06 18:44:56 +0900
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-06 18:44:56 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-06 18:44:56 +0900
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-06 18:44:56 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-06 18:44:56 +0900
+
+
+Started GET "/assets/monitor.self-55a0bf6376b7ad839a945c39639aad4772a6f4d86a8bcc9404c1c0e03cc86db1.js?body=1" for ::1 at 2016-04-06 18:44:56 +0900
+
+
+Started GET "/assets/application.self-39e48d9b58cce8d9e1a2bc744af01ad33127da9a58ebce74b25f3bbd6054d0bf.js?body=1" for ::1 at 2016-04-06 18:44:56 +0900
+
+
+Started GET "/monitor/init" for ::1 at 2016-04-06 18:44:57 +0900
+Processing by MonitorController#init as HTML
+  Rendered monitor/init.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-06 18:44:57 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-06 18:44:57 +0900
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-06 18:44:57 +0900
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-06 18:44:57 +0900
+
+
+Started GET "/assets/monitor.self-55a0bf6376b7ad839a945c39639aad4772a6f4d86a8bcc9404c1c0e03cc86db1.js?body=1" for ::1 at 2016-04-06 18:44:57 +0900
+
+
+Started GET "/assets/monitor.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-06 18:44:57 +0900
+
+
+Started GET "/assets/application.self-39e48d9b58cce8d9e1a2bc744af01ad33127da9a58ebce74b25f3bbd6054d0bf.js?body=1" for ::1 at 2016-04-06 18:44:57 +0900
+
+
+Started GET "/monitor/init" for ::1 at 2016-04-06 18:45:45 +0900
+Processing by MonitorController#init as HTML
+  Rendered monitor/init.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 185ms (Views: 183.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Chart.self-041adbe451556e1fde170e0f1efb2dcd2874bbbe1872478ab37f21c47e2fb67b.js?body=1" for ::1 at 2016-04-06 18:45:46 +0900
+
+
+Started GET "/assets/application.self-e35ecd993d4114eea4b4f9577107ada97b7b166e1425b8fd573a01605dd14633.js?body=1" for ::1 at 2016-04-06 18:45:46 +0900
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-06 18:45:46 +0900
+
+
+Started GET "/assets/monitor.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-06 18:45:46 +0900
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-06 18:45:46 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-06 18:45:46 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-06 18:45:46 +0900
+
+
+Started GET "/assets/monitor.self-55a0bf6376b7ad839a945c39639aad4772a6f4d86a8bcc9404c1c0e03cc86db1.js?body=1" for ::1 at 2016-04-06 18:45:46 +0900
+
+
+Started GET "/monitor/init" for ::1 at 2016-04-06 18:45:52 +0900
+Processing by MonitorController#init as HTML
+  Rendered monitor/init.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 76ms (Views: 75.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/monitor.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-06 18:45:53 +0900
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-06 18:45:53 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-06 18:45:53 +0900
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-06 18:45:53 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-06 18:45:53 +0900
+
+
+Started GET "/assets/monitor.self-55a0bf6376b7ad839a945c39639aad4772a6f4d86a8bcc9404c1c0e03cc86db1.js?body=1" for ::1 at 2016-04-06 18:45:53 +0900
+
+
+Started GET "/assets/Chart.self-041adbe451556e1fde170e0f1efb2dcd2874bbbe1872478ab37f21c47e2fb67b.js?body=1" for ::1 at 2016-04-06 18:45:53 +0900
+
+
+Started GET "/assets/application.self-e35ecd993d4114eea4b4f9577107ada97b7b166e1425b8fd573a01605dd14633.js?body=1" for ::1 at 2016-04-06 18:45:53 +0900
+
+
+Started GET "/monitor/init" for ::1 at 2016-04-06 18:45:53 +0900
+Processing by MonitorController#init as HTML
+  Rendered monitor/init.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-06 18:45:53 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-06 18:45:53 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-06 18:45:53 +0900
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-06 18:45:53 +0900
+
+
+Started GET "/assets/monitor.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-06 18:45:53 +0900
+
+
+Started GET "/assets/monitor.self-55a0bf6376b7ad839a945c39639aad4772a6f4d86a8bcc9404c1c0e03cc86db1.js?body=1" for ::1 at 2016-04-06 18:45:53 +0900
+
+
+Started GET "/assets/Chart.self-041adbe451556e1fde170e0f1efb2dcd2874bbbe1872478ab37f21c47e2fb67b.js?body=1" for ::1 at 2016-04-06 18:45:53 +0900
+
+
+Started GET "/assets/application.self-e35ecd993d4114eea4b4f9577107ada97b7b166e1425b8fd573a01605dd14633.js?body=1" for ::1 at 2016-04-06 18:45:53 +0900
+
+
+Started GET "/monitor/init" for ::1 at 2016-04-06 18:45:54 +0900
+Processing by MonitorController#init as HTML
+  Rendered monitor/init.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 18ms (Views: 16.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/monitor.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-06 18:45:54 +0900
+
+
+Started GET "/assets/monitor.self-55a0bf6376b7ad839a945c39639aad4772a6f4d86a8bcc9404c1c0e03cc86db1.js?body=1" for ::1 at 2016-04-06 18:45:54 +0900
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-06 18:45:54 +0900
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-06 18:45:54 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-06 18:45:54 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-06 18:45:54 +0900
+
+
+Started GET "/assets/application.self-e35ecd993d4114eea4b4f9577107ada97b7b166e1425b8fd573a01605dd14633.js?body=1" for ::1 at 2016-04-06 18:45:54 +0900
+
+
+Started GET "/assets/Chart.self-041adbe451556e1fde170e0f1efb2dcd2874bbbe1872478ab37f21c47e2fb67b.js?body=1" for ::1 at 2016-04-06 18:45:54 +0900
+
+
+Started GET "/monitor/init" for ::1 at 2016-04-06 18:45:57 +0900
+Processing by MonitorController#init as HTML
+  Rendered monitor/init.html.haml within layouts/application (0.2ms)
+Completed 200 OK in 18ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/monitor.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-06 18:45:57 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-06 18:45:57 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-06 18:45:57 +0900
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-06 18:45:57 +0900
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-06 18:45:57 +0900
+
+
+Started GET "/assets/monitor.self-55a0bf6376b7ad839a945c39639aad4772a6f4d86a8bcc9404c1c0e03cc86db1.js?body=1" for ::1 at 2016-04-06 18:45:57 +0900
+
+
+Started GET "/assets/Chart.self-041adbe451556e1fde170e0f1efb2dcd2874bbbe1872478ab37f21c47e2fb67b.js?body=1" for ::1 at 2016-04-06 18:45:57 +0900
+
+
+Started GET "/assets/application.self-e35ecd993d4114eea4b4f9577107ada97b7b166e1425b8fd573a01605dd14633.js?body=1" for ::1 at 2016-04-06 18:45:57 +0900
+
+
+Started GET "/monitor/init" for ::1 at 2016-04-06 18:45:57 +0900
+Processing by MonitorController#init as HTML
+  Rendered monitor/init.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 19ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/monitor.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-06 18:45:57 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-06 18:45:57 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-06 18:45:57 +0900
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-06 18:45:57 +0900
+
+
+Started GET "/assets/monitor.self-55a0bf6376b7ad839a945c39639aad4772a6f4d86a8bcc9404c1c0e03cc86db1.js?body=1" for ::1 at 2016-04-06 18:45:57 +0900
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-06 18:45:57 +0900
+
+
+Started GET "/assets/Chart.self-041adbe451556e1fde170e0f1efb2dcd2874bbbe1872478ab37f21c47e2fb67b.js?body=1" for ::1 at 2016-04-06 18:45:57 +0900
+
+
+Started GET "/assets/application.self-e35ecd993d4114eea4b4f9577107ada97b7b166e1425b8fd573a01605dd14633.js?body=1" for ::1 at 2016-04-06 18:45:57 +0900
+
+
+Started GET "/monitor/init" for ::1 at 2016-04-06 18:45:58 +0900
+Processing by MonitorController#init as HTML
+  Rendered monitor/init.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 20ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/monitor.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-06 18:45:58 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-06 18:45:58 +0900
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-06 18:45:58 +0900
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-06 18:45:58 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-06 18:45:58 +0900
+
+
+Started GET "/assets/monitor.self-55a0bf6376b7ad839a945c39639aad4772a6f4d86a8bcc9404c1c0e03cc86db1.js?body=1" for ::1 at 2016-04-06 18:45:58 +0900
+
+
+Started GET "/assets/Chart.self-041adbe451556e1fde170e0f1efb2dcd2874bbbe1872478ab37f21c47e2fb67b.js?body=1" for ::1 at 2016-04-06 18:45:58 +0900
+
+
+Started GET "/assets/application.self-e35ecd993d4114eea4b4f9577107ada97b7b166e1425b8fd573a01605dd14633.js?body=1" for ::1 at 2016-04-06 18:45:58 +0900
+
+
+Started GET "/monitor/init" for ::1 at 2016-04-06 18:46:04 +0900
+Processing by MonitorController#init as HTML
+  Rendered monitor/init.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/monitor.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-06 18:46:04 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-06 18:46:04 +0900
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-06 18:46:04 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-06 18:46:04 +0900
+
+
+Started GET "/assets/monitor.self-55a0bf6376b7ad839a945c39639aad4772a6f4d86a8bcc9404c1c0e03cc86db1.js?body=1" for ::1 at 2016-04-06 18:46:04 +0900
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-06 18:46:04 +0900
+
+
+Started GET "/assets/Chart.self-041adbe451556e1fde170e0f1efb2dcd2874bbbe1872478ab37f21c47e2fb67b.js?body=1" for ::1 at 2016-04-06 18:46:04 +0900
+
+
+Started GET "/assets/application.self-e35ecd993d4114eea4b4f9577107ada97b7b166e1425b8fd573a01605dd14633.js?body=1" for ::1 at 2016-04-06 18:46:04 +0900
+
+
+Started GET "/monitor/init" for ::1 at 2016-04-06 18:46:05 +0900
+Processing by MonitorController#init as HTML
+  Rendered monitor/init.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 20ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/monitor.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-06 18:46:05 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-06 18:46:05 +0900
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-06 18:46:05 +0900
+
+
+Started GET "/assets/monitor.self-55a0bf6376b7ad839a945c39639aad4772a6f4d86a8bcc9404c1c0e03cc86db1.js?body=1" for ::1 at 2016-04-06 18:46:05 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-06 18:46:05 +0900
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-06 18:46:05 +0900
+
+
+Started GET "/assets/Chart.self-041adbe451556e1fde170e0f1efb2dcd2874bbbe1872478ab37f21c47e2fb67b.js?body=1" for ::1 at 2016-04-06 18:46:05 +0900
+
+
+Started GET "/assets/application.self-e35ecd993d4114eea4b4f9577107ada97b7b166e1425b8fd573a01605dd14633.js?body=1" for ::1 at 2016-04-06 18:46:05 +0900
+
+
+Started GET "/monitor/init" for ::1 at 2016-04-06 18:46:05 +0900
+Processing by MonitorController#init as HTML
+  Rendered monitor/init.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 15.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/monitor.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-06 18:46:05 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-06 18:46:05 +0900
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-06 18:46:05 +0900
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-06 18:46:05 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-06 18:46:05 +0900
+
+
+Started GET "/assets/monitor.self-55a0bf6376b7ad839a945c39639aad4772a6f4d86a8bcc9404c1c0e03cc86db1.js?body=1" for ::1 at 2016-04-06 18:46:05 +0900
+
+
+Started GET "/assets/Chart.self-041adbe451556e1fde170e0f1efb2dcd2874bbbe1872478ab37f21c47e2fb67b.js?body=1" for ::1 at 2016-04-06 18:46:05 +0900
+
+
+Started GET "/assets/application.self-e35ecd993d4114eea4b4f9577107ada97b7b166e1425b8fd573a01605dd14633.js?body=1" for ::1 at 2016-04-06 18:46:05 +0900
+
+
+Started GET "/monitor/init" for ::1 at 2016-04-06 18:46:06 +0900
+Processing by MonitorController#init as HTML
+  Rendered monitor/init.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 18ms (Views: 17.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-06 18:46:06 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-06 18:46:06 +0900
+
+
+Started GET "/assets/monitor.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-06 18:46:06 +0900
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-06 18:46:06 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-06 18:46:06 +0900
+
+
+Started GET "/assets/monitor.self-55a0bf6376b7ad839a945c39639aad4772a6f4d86a8bcc9404c1c0e03cc86db1.js?body=1" for ::1 at 2016-04-06 18:46:06 +0900
+
+
+Started GET "/assets/Chart.self-041adbe451556e1fde170e0f1efb2dcd2874bbbe1872478ab37f21c47e2fb67b.js?body=1" for ::1 at 2016-04-06 18:46:06 +0900
+
+
+Started GET "/assets/application.self-e35ecd993d4114eea4b4f9577107ada97b7b166e1425b8fd573a01605dd14633.js?body=1" for ::1 at 2016-04-06 18:46:06 +0900
+
+
+Started GET "/monitor/init" for ::1 at 2016-04-06 18:46:31 +0900
+Processing by MonitorController#init as HTML
+  Rendered monitor/init.html.haml within layouts/application (1.6ms)
+Completed 200 OK in 24ms (Views: 23.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-06 18:46:31 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-06 18:46:31 +0900
+
+
+Started GET "/assets/monitor.self-55a0bf6376b7ad839a945c39639aad4772a6f4d86a8bcc9404c1c0e03cc86db1.js?body=1" for ::1 at 2016-04-06 18:46:31 +0900
+
+
+Started GET "/assets/monitor.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-06 18:46:31 +0900
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-06 18:46:31 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-06 18:46:31 +0900
+
+
+Started GET "/assets/Chart.self-041adbe451556e1fde170e0f1efb2dcd2874bbbe1872478ab37f21c47e2fb67b.js?body=1" for ::1 at 2016-04-06 18:46:31 +0900
+
+
+Started GET "/assets/application.self-e35ecd993d4114eea4b4f9577107ada97b7b166e1425b8fd573a01605dd14633.js?body=1" for ::1 at 2016-04-06 18:46:31 +0900
+
+
+Started GET "/monitor/init" for ::1 at 2016-04-06 18:46:32 +0900
+Processing by MonitorController#init as HTML
+  Rendered monitor/init.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-06 18:46:32 +0900
+
+
+Started GET "/assets/monitor.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-06 18:46:32 +0900
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-06 18:46:32 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-06 18:46:32 +0900
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-06 18:46:32 +0900
+
+
+Started GET "/assets/monitor.self-55a0bf6376b7ad839a945c39639aad4772a6f4d86a8bcc9404c1c0e03cc86db1.js?body=1" for ::1 at 2016-04-06 18:46:32 +0900
+
+
+Started GET "/assets/Chart.self-041adbe451556e1fde170e0f1efb2dcd2874bbbe1872478ab37f21c47e2fb67b.js?body=1" for ::1 at 2016-04-06 18:46:32 +0900
+
+
+Started GET "/assets/application.self-e35ecd993d4114eea4b4f9577107ada97b7b166e1425b8fd573a01605dd14633.js?body=1" for ::1 at 2016-04-06 18:46:32 +0900
+
+
+Started GET "/monitor/init" for ::1 at 2016-04-06 18:46:33 +0900
+Processing by MonitorController#init as HTML
+  Rendered monitor/init.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/monitor.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-06 18:46:33 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-06 18:46:33 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-06 18:46:33 +0900
+
+
+Started GET "/assets/monitor.self-55a0bf6376b7ad839a945c39639aad4772a6f4d86a8bcc9404c1c0e03cc86db1.js?body=1" for ::1 at 2016-04-06 18:46:33 +0900
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-06 18:46:33 +0900
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-06 18:46:33 +0900
+
+
+Started GET "/assets/Chart.self-041adbe451556e1fde170e0f1efb2dcd2874bbbe1872478ab37f21c47e2fb67b.js?body=1" for ::1 at 2016-04-06 18:46:33 +0900
+
+
+Started GET "/assets/application.self-e35ecd993d4114eea4b4f9577107ada97b7b166e1425b8fd573a01605dd14633.js?body=1" for ::1 at 2016-04-06 18:46:33 +0900
+
+
+Started GET "/monitor/init" for ::1 at 2016-04-06 18:47:34 +0900
+Processing by MonitorController#init as HTML
+  Rendered monitor/init.html.haml within layouts/application (1.4ms)
+Completed 200 OK in 24ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/monitor.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-06 18:47:34 +0900
+
+
+Started GET "/assets/monitor.self-55a0bf6376b7ad839a945c39639aad4772a6f4d86a8bcc9404c1c0e03cc86db1.js?body=1" for ::1 at 2016-04-06 18:47:34 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-06 18:47:34 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-06 18:47:34 +0900
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-06 18:47:34 +0900
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-06 18:47:34 +0900
+
+
+Started GET "/assets/Chart.self-041adbe451556e1fde170e0f1efb2dcd2874bbbe1872478ab37f21c47e2fb67b.js?body=1" for ::1 at 2016-04-06 18:47:34 +0900
+
+
+Started GET "/assets/application.self-e35ecd993d4114eea4b4f9577107ada97b7b166e1425b8fd573a01605dd14633.js?body=1" for ::1 at 2016-04-06 18:47:34 +0900
+
+
+Started GET "/monitor/init" for ::1 at 2016-04-06 18:47:35 +0900
+Processing by MonitorController#init as HTML
+  Rendered monitor/init.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/monitor.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-06 18:47:35 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-06 18:47:35 +0900
+
+
+Started GET "/assets/monitor.self-55a0bf6376b7ad839a945c39639aad4772a6f4d86a8bcc9404c1c0e03cc86db1.js?body=1" for ::1 at 2016-04-06 18:47:35 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-06 18:47:35 +0900
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-06 18:47:35 +0900
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-06 18:47:35 +0900
+
+
+Started GET "/assets/Chart.self-041adbe451556e1fde170e0f1efb2dcd2874bbbe1872478ab37f21c47e2fb67b.js?body=1" for ::1 at 2016-04-06 18:47:35 +0900
+
+
+Started GET "/assets/application.self-e35ecd993d4114eea4b4f9577107ada97b7b166e1425b8fd573a01605dd14633.js?body=1" for ::1 at 2016-04-06 18:47:35 +0900
+
+
+Started GET "/monitor/init" for ::1 at 2016-04-06 18:47:42 +0900
+Processing by MonitorController#init as HTML
+  Rendered monitor/init.html.haml within layouts/application (1.2ms)
+Completed 200 OK in 18ms (Views: 17.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/monitor.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-06 18:47:42 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-06 18:47:42 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-06 18:47:42 +0900
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-06 18:47:42 +0900
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-06 18:47:42 +0900
+
+
+Started GET "/assets/monitor.self-55a0bf6376b7ad839a945c39639aad4772a6f4d86a8bcc9404c1c0e03cc86db1.js?body=1" for ::1 at 2016-04-06 18:47:42 +0900
+
+
+Started GET "/assets/Chart.self-041adbe451556e1fde170e0f1efb2dcd2874bbbe1872478ab37f21c47e2fb67b.js?body=1" for ::1 at 2016-04-06 18:47:42 +0900
+
+
+Started GET "/assets/application.self-e35ecd993d4114eea4b4f9577107ada97b7b166e1425b8fd573a01605dd14633.js?body=1" for ::1 at 2016-04-06 18:47:42 +0900
+
+
+Started GET "/monitor/init" for ::1 at 2016-04-06 18:51:57 +0900
+Processing by MonitorController#init as HTML
+  Rendered monitor/init.html.haml within layouts/application (1.7ms)
+Completed 200 OK in 66ms (Views: 65.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-06 18:51:58 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-06 18:51:58 +0900
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-06 18:51:58 +0900
+
+
+Started GET "/assets/monitor.self-55a0bf6376b7ad839a945c39639aad4772a6f4d86a8bcc9404c1c0e03cc86db1.js?body=1" for ::1 at 2016-04-06 18:51:58 +0900
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-06 18:51:58 +0900
+
+
+Started GET "/assets/monitor.self-988a01a4c35e58e7db0af3dbd3abcff1b5f51750f4ec0cb41c4e7b432a097833.css?body=1" for ::1 at 2016-04-06 18:51:58 +0900
+
+
+Started GET "/assets/Chart.self-041adbe451556e1fde170e0f1efb2dcd2874bbbe1872478ab37f21c47e2fb67b.js?body=1" for ::1 at 2016-04-06 18:51:58 +0900
+
+
+Started GET "/assets/application.self-e35ecd993d4114eea4b4f9577107ada97b7b166e1425b8fd573a01605dd14633.js?body=1" for ::1 at 2016-04-06 18:51:58 +0900
+
+
+Started GET "/monitor/init" for 127.0.0.1 at 2016-04-06 18:52:18 +0900
+Processing by MonitorController#init as HTML
+  Rendered monitor/init.html.haml within layouts/application (1.7ms)
+Completed 200 OK in 27ms (Views: 26.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/monitor.self-988a01a4c35e58e7db0af3dbd3abcff1b5f51750f4ec0cb41c4e7b432a097833.css?body=1" for 127.0.0.1 at 2016-04-06 18:52:18 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-04-06 18:52:18 +0900
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-06 18:52:18 +0900
+
+
+Started GET "/assets/Chart.self-041adbe451556e1fde170e0f1efb2dcd2874bbbe1872478ab37f21c47e2fb67b.js?body=1" for 127.0.0.1 at 2016-04-06 18:52:18 +0900
+
+
+Started GET "/assets/application.self-e35ecd993d4114eea4b4f9577107ada97b7b166e1425b8fd573a01605dd14633.js?body=1" for 127.0.0.1 at 2016-04-06 18:52:18 +0900
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-06 18:52:18 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-06 18:52:18 +0900
+
+
+Started GET "/assets/monitor.self-55a0bf6376b7ad839a945c39639aad4772a6f4d86a8bcc9404c1c0e03cc86db1.js?body=1" for 127.0.0.1 at 2016-04-06 18:52:18 +0900
+
+
+Started GET "/monitor/init" for ::1 at 2016-04-06 18:52:34 +0900
+Processing by MonitorController#init as HTML
+  Rendered monitor/init.html.haml within layouts/application (1.5ms)
+Completed 200 OK in 23ms (Views: 22.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-06 18:52:34 +0900
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-06 18:52:34 +0900
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-06 18:52:34 +0900
+
+
+Started GET "/assets/monitor.self-988a01a4c35e58e7db0af3dbd3abcff1b5f51750f4ec0cb41c4e7b432a097833.css?body=1" for ::1 at 2016-04-06 18:52:34 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-06 18:52:34 +0900
+
+
+Started GET "/assets/monitor.self-55a0bf6376b7ad839a945c39639aad4772a6f4d86a8bcc9404c1c0e03cc86db1.js?body=1" for ::1 at 2016-04-06 18:52:34 +0900
+
+
+Started GET "/assets/Chart.self-041adbe451556e1fde170e0f1efb2dcd2874bbbe1872478ab37f21c47e2fb67b.js?body=1" for ::1 at 2016-04-06 18:52:34 +0900
+
+
+Started GET "/assets/application.self-e35ecd993d4114eea4b4f9577107ada97b7b166e1425b8fd573a01605dd14633.js?body=1" for ::1 at 2016-04-06 18:52:34 +0900
+
+
+Started GET "/monitor/init" for ::1 at 2016-04-06 18:54:06 +0900
+Processing by MonitorController#init as HTML
+  Rendered monitor/init.html.haml within layouts/application (1.5ms)
+Completed 200 OK in 201ms (Views: 200.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-06 18:54:06 +0900
+
+
+Started GET "/assets/monitor.self-41d647fba177e3c079a8e830a666347b884cf54829d332128a9801f29c314c82.css?body=1" for ::1 at 2016-04-06 18:54:06 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-06 18:54:06 +0900
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-06 18:54:06 +0900
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-06 18:54:06 +0900
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-04-06 18:54:06 +0900
+
+
+Started GET "/assets/monitor.self-55a0bf6376b7ad839a945c39639aad4772a6f4d86a8bcc9404c1c0e03cc86db1.js?body=1" for ::1 at 2016-04-06 18:54:06 +0900
+
+
+Started GET "/assets/Chart.self-041adbe451556e1fde170e0f1efb2dcd2874bbbe1872478ab37f21c47e2fb67b.js?body=1" for ::1 at 2016-04-06 18:54:06 +0900
+
+
+Started GET "/monitor/init" for ::1 at 2016-04-06 18:54:14 +0900
+Processing by MonitorController#init as HTML
+  Rendered monitor/init.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 47ms (Views: 46.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/monitor.self-4dd8fff84f2dbd1f820ed90bc1e7cf14fd257b781f9b89d8c6048c8ce49511c9.css?body=1" for ::1 at 2016-04-06 18:54:15 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-06 18:54:15 +0900
+
+
+Started GET "/assets/monitor.self-55a0bf6376b7ad839a945c39639aad4772a6f4d86a8bcc9404c1c0e03cc86db1.js?body=1" for ::1 at 2016-04-06 18:54:15 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-06 18:54:15 +0900
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-06 18:54:15 +0900
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-06 18:54:15 +0900
+
+
+Started GET "/assets/Chart.self-041adbe451556e1fde170e0f1efb2dcd2874bbbe1872478ab37f21c47e2fb67b.js?body=1" for ::1 at 2016-04-06 18:54:15 +0900
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-04-06 18:54:15 +0900
+
+
+Started GET "/monitor/init" for ::1 at 2016-04-06 18:54:22 +0900
+Processing by MonitorController#init as HTML
+  Rendered monitor/init.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 116ms (Views: 115.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/monitor.self-fa3758d37f68279fb0a9ec52d221986dbf94ae17bac5d18ab19129c920223b0e.css?body=1" for ::1 at 2016-04-06 18:54:22 +0900
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-06 18:54:22 +0900
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-06 18:54:22 +0900
+
+
+Started GET "/assets/monitor.self-55a0bf6376b7ad839a945c39639aad4772a6f4d86a8bcc9404c1c0e03cc86db1.js?body=1" for ::1 at 2016-04-06 18:54:22 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-06 18:54:22 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-06 18:54:22 +0900
+
+
+Started GET "/assets/Chart.self-041adbe451556e1fde170e0f1efb2dcd2874bbbe1872478ab37f21c47e2fb67b.js?body=1" for ::1 at 2016-04-06 18:54:22 +0900
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-04-06 18:54:22 +0900
+
+
+Started GET "/monitor/init" for ::1 at 2016-04-06 18:54:41 +0900
+Processing by MonitorController#init as HTML
+  Rendered monitor/init.html.haml within layouts/application (1.7ms)
+Completed 200 OK in 18ms (Views: 17.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/monitor.self-fa3758d37f68279fb0a9ec52d221986dbf94ae17bac5d18ab19129c920223b0e.css?body=1" for ::1 at 2016-04-06 18:54:41 +0900
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-06 18:54:41 +0900
+
+
+Started GET "/assets/monitor.self-55a0bf6376b7ad839a945c39639aad4772a6f4d86a8bcc9404c1c0e03cc86db1.js?body=1" for ::1 at 2016-04-06 18:54:41 +0900
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-06 18:54:41 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-06 18:54:41 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-06 18:54:41 +0900
+
+
+Started GET "/assets/Chart.self-041adbe451556e1fde170e0f1efb2dcd2874bbbe1872478ab37f21c47e2fb67b.js?body=1" for ::1 at 2016-04-06 18:54:41 +0900
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-04-06 18:54:41 +0900
+
+
+Started GET "/monitor/init" for ::1 at 2016-04-06 18:55:00 +0900
+Processing by MonitorController#init as HTML
+  Rendered monitor/init.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 116ms (Views: 115.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/monitor.self-b641547e328dea86ed65ed20e17d54023d3372ed7898a18e03c1d9e08e2516e5.css?body=1" for ::1 at 2016-04-06 18:55:00 +0900
+
+
+Started GET "/assets/monitor.self-55a0bf6376b7ad839a945c39639aad4772a6f4d86a8bcc9404c1c0e03cc86db1.js?body=1" for ::1 at 2016-04-06 18:55:00 +0900
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-06 18:55:00 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-06 18:55:00 +0900
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-06 18:55:00 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-06 18:55:00 +0900
+
+
+Started GET "/assets/Chart.self-041adbe451556e1fde170e0f1efb2dcd2874bbbe1872478ab37f21c47e2fb67b.js?body=1" for ::1 at 2016-04-06 18:55:00 +0900
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-04-06 18:55:00 +0900
+
+
+Started GET "/monitor/init" for ::1 at 2016-04-06 18:56:50 +0900
+Processing by MonitorController#init as HTML
+  Rendered monitor/init.html.haml within layouts/application (1.9ms)
+Completed 200 OK in 119ms (Views: 117.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-06 18:56:50 +0900
+
+
+Started GET "/assets/monitor.self-55a0bf6376b7ad839a945c39639aad4772a6f4d86a8bcc9404c1c0e03cc86db1.js?body=1" for ::1 at 2016-04-06 18:56:50 +0900
+
+
+Started GET "/assets/monitor.self-653759eb6e0c352d6fcfb85fd4dd43aa34e5ea2243cec1fe2e520b982925c406.css?body=1" for ::1 at 2016-04-06 18:56:50 +0900
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-06 18:56:50 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-06 18:56:50 +0900
+
+
+Started GET "/assets/Chart.self-041adbe451556e1fde170e0f1efb2dcd2874bbbe1872478ab37f21c47e2fb67b.js?body=1" for ::1 at 2016-04-06 18:56:50 +0900
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-06 18:56:50 +0900
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-04-06 18:56:50 +0900
+
+
+Started GET "/monitor/init" for ::1 at 2016-04-06 18:57:39 +0900
+Processing by MonitorController#init as HTML
+  Rendered monitor/init.html.haml within layouts/application (0.2ms)
+Completed 200 OK in 123ms (Views: 121.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-06 18:57:39 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-06 18:57:39 +0900
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-06 18:57:39 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-06 18:57:39 +0900
+
+
+Started GET "/assets/monitor.self-55a0bf6376b7ad839a945c39639aad4772a6f4d86a8bcc9404c1c0e03cc86db1.js?body=1" for ::1 at 2016-04-06 18:57:39 +0900
+
+
+Started GET "/assets/Chart.self-041adbe451556e1fde170e0f1efb2dcd2874bbbe1872478ab37f21c47e2fb67b.js?body=1" for ::1 at 2016-04-06 18:57:39 +0900
+
+
+Started GET "/assets/monitor.self-ec24f50c812890652b8d60c1c262577a34b4c497d70343e7069d95cb7e08ca1e.css?body=1" for ::1 at 2016-04-06 18:57:39 +0900
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-04-06 18:57:39 +0900
+
+
+Started GET "/monitor/init" for ::1 at 2016-04-06 18:57:40 +0900
+Processing by MonitorController#init as HTML
+  Rendered monitor/init.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/monitor.self-ec24f50c812890652b8d60c1c262577a34b4c497d70343e7069d95cb7e08ca1e.css?body=1" for ::1 at 2016-04-06 18:57:40 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-06 18:57:40 +0900
+
+
+Started GET "/assets/monitor.self-55a0bf6376b7ad839a945c39639aad4772a6f4d86a8bcc9404c1c0e03cc86db1.js?body=1" for ::1 at 2016-04-06 18:57:40 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-06 18:57:40 +0900
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-06 18:57:40 +0900
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-06 18:57:40 +0900
+
+
+Started GET "/assets/Chart.self-041adbe451556e1fde170e0f1efb2dcd2874bbbe1872478ab37f21c47e2fb67b.js?body=1" for ::1 at 2016-04-06 18:57:40 +0900
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-04-06 18:57:40 +0900
+
+
+Started GET "/monitor/init" for ::1 at 2016-04-06 18:58:07 +0900
+Processing by MonitorController#init as HTML
+  Rendered monitor/init.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 28ms (Views: 26.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-06 18:58:07 +0900
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-06 18:58:07 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-06 18:58:07 +0900
+
+
+Started GET "/assets/monitor.self-ec24f50c812890652b8d60c1c262577a34b4c497d70343e7069d95cb7e08ca1e.css?body=1" for ::1 at 2016-04-06 18:58:07 +0900
+
+
+Started GET "/assets/monitor.self-55a0bf6376b7ad839a945c39639aad4772a6f4d86a8bcc9404c1c0e03cc86db1.js?body=1" for ::1 at 2016-04-06 18:58:07 +0900
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-06 18:58:07 +0900
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-04-06 18:58:07 +0900
+
+
+Started GET "/assets/Chart.self-041adbe451556e1fde170e0f1efb2dcd2874bbbe1872478ab37f21c47e2fb67b.js?body=1" for ::1 at 2016-04-06 18:58:07 +0900
+
+
+Started GET "/monitor/init" for ::1 at 2016-04-06 18:58:07 +0900
+Processing by MonitorController#init as HTML
+  Rendered monitor/init.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/monitor.self-ec24f50c812890652b8d60c1c262577a34b4c497d70343e7069d95cb7e08ca1e.css?body=1" for ::1 at 2016-04-06 18:58:07 +0900
+
+
+Started GET "/assets/monitor.self-55a0bf6376b7ad839a945c39639aad4772a6f4d86a8bcc9404c1c0e03cc86db1.js?body=1" for ::1 at 2016-04-06 18:58:07 +0900
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-06 18:58:07 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-06 18:58:07 +0900
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-06 18:58:07 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-06 18:58:07 +0900
+
+
+Started GET "/assets/Chart.self-041adbe451556e1fde170e0f1efb2dcd2874bbbe1872478ab37f21c47e2fb67b.js?body=1" for ::1 at 2016-04-06 18:58:07 +0900
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-04-06 18:58:07 +0900
+
+
+Started GET "/monitor/init" for ::1 at 2016-04-06 18:58:08 +0900
+Processing by MonitorController#init as HTML
+  Rendered monitor/init.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/monitor.self-ec24f50c812890652b8d60c1c262577a34b4c497d70343e7069d95cb7e08ca1e.css?body=1" for ::1 at 2016-04-06 18:58:08 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-06 18:58:08 +0900
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-06 18:58:08 +0900
+
+
+Started GET "/assets/monitor.self-55a0bf6376b7ad839a945c39639aad4772a6f4d86a8bcc9404c1c0e03cc86db1.js?body=1" for ::1 at 2016-04-06 18:58:08 +0900
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-06 18:58:08 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-06 18:58:08 +0900
+
+
+Started GET "/assets/Chart.self-041adbe451556e1fde170e0f1efb2dcd2874bbbe1872478ab37f21c47e2fb67b.js?body=1" for ::1 at 2016-04-06 18:58:08 +0900
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-04-06 18:58:08 +0900
+
+
+Started GET "/monitor/init" for ::1 at 2016-04-06 18:58:08 +0900
+Processing by MonitorController#init as HTML
+  Rendered monitor/init.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/monitor.self-ec24f50c812890652b8d60c1c262577a34b4c497d70343e7069d95cb7e08ca1e.css?body=1" for ::1 at 2016-04-06 18:58:08 +0900
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-06 18:58:08 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-06 18:58:08 +0900
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-06 18:58:08 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-06 18:58:08 +0900
+
+
+Started GET "/assets/monitor.self-55a0bf6376b7ad839a945c39639aad4772a6f4d86a8bcc9404c1c0e03cc86db1.js?body=1" for ::1 at 2016-04-06 18:58:08 +0900
+
+
+Started GET "/assets/Chart.self-041adbe451556e1fde170e0f1efb2dcd2874bbbe1872478ab37f21c47e2fb67b.js?body=1" for ::1 at 2016-04-06 18:58:08 +0900
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-04-06 18:58:08 +0900
+
+
+Started GET "/monitor/init" for ::1 at 2016-04-06 18:58:09 +0900
+Processing by MonitorController#init as HTML
+  Rendered monitor/init.html.haml within layouts/application (0.2ms)
+Completed 200 OK in 18ms (Views: 16.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-06 18:58:09 +0900
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-06 18:58:09 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-06 18:58:09 +0900
+
+
+Started GET "/assets/monitor.self-ec24f50c812890652b8d60c1c262577a34b4c497d70343e7069d95cb7e08ca1e.css?body=1" for ::1 at 2016-04-06 18:58:09 +0900
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-06 18:58:09 +0900
+
+
+Started GET "/assets/monitor.self-55a0bf6376b7ad839a945c39639aad4772a6f4d86a8bcc9404c1c0e03cc86db1.js?body=1" for ::1 at 2016-04-06 18:58:09 +0900
+
+
+Started GET "/assets/Chart.self-041adbe451556e1fde170e0f1efb2dcd2874bbbe1872478ab37f21c47e2fb67b.js?body=1" for ::1 at 2016-04-06 18:58:09 +0900
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-04-06 18:58:09 +0900
